@@ -8,12 +8,14 @@
     "experimentalDecorators": true,
     "removeComments": false,
     "noImplicitAny": true,
-    "suppressImplicitAnyIndexErrors": true,
-    "buildOnSave": false,
-    "compileOnSave": false
+    "suppressImplicitAnyIndexErrors": true
   },
+  "compileOnSave" : false,
   "exclude": [
     "node_modules",
     "dist"
-  ]
+  ],
+  "atom": {
+    "formatOnSave": true
+  }
 }
