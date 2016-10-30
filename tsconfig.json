@@ -1,6 +1,6 @@
 {
   "compilerOptions": {
-    "target": "es6",
+    "target": "es5",
     "module": "commonjs",
     "moduleResolution": "node",
     "sourceMap": true,
@@ -9,6 +9,11 @@
     "removeComments": false,
     "noImplicitAny": true,
     "suppressImplicitAnyIndexErrors": true,
-    "buildOnSave": false
-  }
+    "buildOnSave": false,
+    "compileOnSave": false
+  },
+  "exclude": [
+    "node_modules",
+    "dist"
+  ]
 }
